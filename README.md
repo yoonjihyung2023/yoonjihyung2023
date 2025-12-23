@@ -4,7 +4,7 @@
 I build end-to-end CTR pipelines: **data → training → evaluation → reproducible reporting**  
 (with a focus on **leakage/overfitting checks**)
 
-## Featured Projects (Pin these 3)
+## Featured Projects
 - **ctr-seqrec-avazu** — Avazu CTR pipeline + sequential models (SASRec/BERT4Rec-style)
 - **ctr-serving-demo** — FastAPI inference demo + Docker (WIP / make public before linking)
 - **recsys-experiments-playbook** — experiment template + leakage checklist (WIP / make public before linking)
