@@ -9,6 +9,7 @@ I build **reproducible** pipelines (data → split → train → eval → report
 * **EEG**: EEG signal classification experiments (preprocessing → training → evaluation).
 * **yjh2024**: Small personal ML projects and practice.
 
+
 Tech: Python, PyTorch, SQL, Optuna, FastAPI, Docker, GitHub Actions
 
 ---
