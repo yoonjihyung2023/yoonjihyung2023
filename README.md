@@ -1,27 +1,25 @@
 # 👋 Hi, I’m Jihyung Yoon (윤지형)
 
 ## EN
-I’m an Ads/RecSys ML Engineer focused on CTR prediction and sequential user modeling.
-- Thesis focus: CTR prediction with sequential recommenders (BERT4Rec / SASRec) and hybrid modeling with DIN.  
-- I care about: reproducibility (seeds/splits), leakage checks, and end-to-end pipelines.
+Ads/RecSys ML Engineer focused on CTR prediction and sequential user modeling.  
+I build **reproducible** pipelines (data → split → train → eval → report) with **leakage checks**.
 
 ### Featured
-* ctr-seqrec-avazu: Avazu CTR experiments + reports (AUC/LogLoss).
-* EEG: (짧게 한 줄로) EEG classification / signal ML project.
-* yjh2024: (짧게 한 줄로) personal projects / practice.
+* **ctr-seqrec-avazu**: Avazu CTR experiments + reports (AUC/LogLoss) with leakage checklist.
+* **EEG**: EEG signal classification experiments (preprocessing → training → evaluation).
+* **yjh2024**: Small personal ML projects and practice.
 
 Tech: Python, PyTorch, SQL, Optuna, FastAPI, Docker, GitHub Actions
 
 ---
 
 ## KR
-저는 **CTR 예측**과 **사용자 행동 시퀀스 모델링**(순차 추천)에 집중하는 ML 엔지니어입니다.
-- 석사 논문: BERT4Rec / SASRec 기반 순차 모델과 DIN을 포함한 하이브리드 접근으로 CTR 예측 성능 향상 탐구
-- 강점: 재현성(시드/분할), 데이터 누수 점검, 데이터→학습→평가→리포트까지 end-to-end
+CTR(클릭) 예측과 사용자 행동 시퀀스 모델링(순차 추천)에 집중하는 ML 엔지니어입니다.  
+**재현성(시드/분할)**과 **데이터 누수 점검**을 포함해 data → split → train → eval → report 파이프라인을 만듭니다.
 
-### 대표 프로젝트(핀 고정)
-* ctr-seqrec-avazu: Avazu CTR 실험 + 리포트(AUC/LogLoss)
-* EEG: EEG 신호 기반 ML 프로젝트
-* yjh2024: 개인 프로젝트 모음
+### 대표 프로젝트
+* **ctr-seqrec-avazu**: Avazu CTR 실험 + 리포트(AUC/LogLoss) + 누수 체크리스트
+* **EEG**: EEG 신호 분류 실험(전처리 → 학습 → 평가)
+* **yjh2024**: 개인 미니 프로젝트 모음
 
 기술: Python, PyTorch, SQL, Optuna, FastAPI, Docker, GitHub Actions
