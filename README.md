@@ -6,9 +6,9 @@ I’m an Ads/RecSys ML Engineer focused on CTR prediction and sequential user mo
 - I care about: reproducibility (seeds/splits), leakage checks, and end-to-end pipelines.
 
 ### Featured
-- **ctr-seqrec-avazu-thesis**: Avazu CTR (~40M rows) experiments + reports (AUC/LogLoss).
-- **ctr-serving-demo**: FastAPI + Docker inference demo (`/predict`).
-- **ml-reproducibility-template**: experiment structure (configs, logging, CI).
+* ctr-seqrec-avazu: Avazu CTR experiments + reports (AUC/LogLoss).
+* EEG: (짧게 한 줄로) EEG classification / signal ML project.
+* yjh2024: (짧게 한 줄로) personal projects / practice.
 
 Tech: Python, PyTorch, SQL, Optuna, FastAPI, Docker, GitHub Actions
 
@@ -20,8 +20,8 @@ Tech: Python, PyTorch, SQL, Optuna, FastAPI, Docker, GitHub Actions
 - 강점: 재현성(시드/분할), 데이터 누수 점검, 데이터→학습→평가→리포트까지 end-to-end
 
 ### 대표 프로젝트(핀 고정)
-- **ctr-seqrec-avazu-thesis**: Avazu CTR(약 4천만 행) 실험 + 리포트
-- **ctr-serving-demo**: FastAPI + Docker로 `/predict` 데모
-- **ml-reproducibility-template**: 실험 구조 템플릿(config/log/CI)
+* ctr-seqrec-avazu: Avazu CTR 실험 + 리포트(AUC/LogLoss)
+* EEG: EEG 신호 기반 ML 프로젝트
+* yjh2024: 개인 프로젝트 모음
 
 기술: Python, PyTorch, SQL, Optuna, FastAPI, Docker, GitHub Actions
