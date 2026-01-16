@@ -25,4 +25,5 @@ CTR(클릭) 예측과 사용자 행동 시퀀스 모델링(순차 추천)에 집
 기술: Python, PyTorch, SQL, Optuna, FastAPI, Docker, GitHub Actions
 
 Reproducible CTR + Sequential RecSys experiments on Avazu (leakage-safe, config-based)
+
 ctr-prediction recsys sequential-modeling pytorch mlops reproducibility avazu
