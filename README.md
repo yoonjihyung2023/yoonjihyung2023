@@ -13,22 +13,19 @@ CTR(클릭) 예측과 사용자 행동 시퀀스(Sequential) 모델링을 하는
 
 > Goal: Time-based split (no future data) + reproducible metrics report.
 
-## ⭐ Proof (바로 실행되는 증거)
-> Run inside the repo root folder (where `README.md` exists).
+## ⭐ Proof (Recruiter-ready)
+Pinned repo: **ctr-seqrec-avazu** — leakage-safe CTR prediction with sequential modeling (Avazu).  
+✅ Kaggle full run (2M rows, Tesla T4): **Test AUC 0.72659 / LogLoss 0.40009**  
+✅ Label-shuffle sanity check (train labels only): **Test AUC 0.53265** (≈ random → no leakage)  
+📌 Run instructions + `reports/metrics.json` snapshot are in the repo README.  
 
-**한 줄 실행 → 결과 파일 생성**
+**Local demo (structure + leakage checks only):**
 ```powershell
 py -m src.run; Get-Content .\reports\metrics.json
 ```
-- Output: `reports/metrics.json`
-- Example output:
-```json
-{
-  "test_auc": 0.5,
-  "test_logloss": 0.9339,
-  "label_shuffle_auc": 0.5
-}
-```
+
+- Output: `reports/metrics.json` *(demo numbers may differ from Kaggle full run)*
+
 - Sanity check: label shuffle(정답 섞기)하면 **AUC ≈ 0.50**이어야 정상  
   (정답을 섞었는데도 점수가 높으면 누수/치팅 의심)
 
