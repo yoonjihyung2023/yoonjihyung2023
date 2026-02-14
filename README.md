@@ -11,7 +11,7 @@ Leakage-safe evaluation (**time-based split**, **label-shuffle sanity check**) +
 
 - ✅ **Kaggle full run (2M rows, Tesla T4):** **Test AUC 0.72659 / LogLoss 0.40009**
 - ✅ **Leakage sanity (label-shuffle, train labels only):** **Test AUC 0.53265** (near-random → OK)
-- 🧪 **Local demo (pipeline smoke test; not comparable to Kaggle):** **AUC 0.50 / LogLoss 0.9339** (label-shuffle **AUC 0.50**)
+- 🧪 **Local demo: weekly experiment loop (SEQ_LEN ablation + metrics.json + label-shuffle sanity)**
 - 📌 Run instructions + `reports/metrics.json` snapshot are in the repo README.
 - ▶️ Quick run: creates `reports/metrics.json` + label-shuffle sanity (AUC ≈ 0.50) ✅
 
