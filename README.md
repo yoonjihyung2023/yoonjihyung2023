@@ -4,7 +4,6 @@ Ads/RecSys ML Engineer | CTR Prediction | Sequential Recommendation
 Proof: Avazu CTR 2M (Kaggle, Tesla T4) — AUC 0.72659 / LogLoss 0.40009  
 Leakage-safe: time-based split + label-shuffle sanity  
 Reproducible: `py -m src.run` → `reports/metrics.json`  
-Pinned: `ctr-seqrec-avazu` + `ctr-api`
 
 ## 🔗 Featured Projects
 - **[ctr-seqrec-avazu](https://github.com/yoonjihyung2023/ctr-seqrec-avazu)** — Leakage-safe CTR + sequential modeling (time-split, label-shuffle, reproducible metrics)
@@ -22,7 +21,7 @@ Get-Content .\reports\metrics.json
 ```
 
 ## Stack
-Python · PyTorch · SQL · Docker · GitHub Actions
+Python · PyTorch · FastAPI · Docker · SQL · GitHub Actions
 
 ## Open to
 Ads/RecSys ML Engineer (CTR / Ranking / Seq Modeling / Serving)
