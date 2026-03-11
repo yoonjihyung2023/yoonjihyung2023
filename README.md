@@ -2,20 +2,37 @@
 
 Ads/RecSys ML Engineer — CTR Prediction + Sequential Recommendation  
 Proof: Avazu 2M (Kaggle, Tesla T4) — AUC 0.72659 / LogLoss 0.40009  
-Leakage-safe & reproducible: time-based split + label-shuffle sanity + `reports/metrics.json`
+Leakage-safe & reproducible: time-split + label-shuffle sanity + `py -m src.run` → `reports/metrics.json`
 
 ## 🔗 Featured Projects
-- **[ctr-seqrec-avazu](https://github.com/yoonjihyung2023/ctr-seqrec-avazu)** — Leakage-safe CTR benchmark with sequential modeling
-- **[ctr-api](https://github.com/yoonjihyung2023/ctr-api)** — FastAPI + Docker serving demo
-- **[ranking-eval-toolkit](https://github.com/yoonjihyung2023/ranking-eval-toolkit)** — Ranking/CTR evaluation utilities for offline benchmarking
+- **[ctr-seqrec-avazu](https://github.com/yoonjihyung2023/ctr-seqrec-avazu)** — Leakage-safe CTR benchmark with sequential modeling (`time-split`, `label-shuffle`, `reports/metrics.json`)
+- **[ctr-api](https://github.com/yoonjihyung2023/ctr-api)** — FastAPI + Docker serving demo (`/health`, `/model-info`, `/predict`)
+- **[ranking-eval-toolkit](https://github.com/yoonjihyung2023/ranking-eval-toolkit)** — Lightweight ranking evaluation utilities for CTR/RecSys experiments (`AUC`, `LogLoss`, tests, reusable metrics code)
 
-## ✅ What I build
-- **Trustworthy offline CTR evaluation** with **time-based split** and **label-shuffle sanity**
-- **Reproducible ML pipelines** that save benchmark outputs to **`reports/metrics.json`**
-- **Production-minded ML demos** with **FastAPI**, **schema validation**, **error handling**, and **Docker**
+## ✅ What I do
+- Build leakage-safe offline evaluation pipelines for CTR/RecSys experiments
+- Apply sequential user modeling for ranking and recommendation tasks
+- Create reproducible ML workflows with metrics artifacts and sanity checks
+- Build serving-ready demos with FastAPI and Docker
+- Build reusable evaluation utilities for ranking experiments, including offline metrics and simple testable tooling
+
+## 🧪 Proof Highlights
+- **Avazu CTR benchmark** with **time-based split**
+- **Sequential modeling** for user behavior signals
+- **Label-shuffle sanity check** to verify non-random learning
+- **Reproducible outputs** via `reports/metrics.json`
+- **Serving demo** for model inference with FastAPI + Docker
+
+## 🛠 Stack
+Python, PyTorch, FastAPI, Docker, Git, GitHub Actions, pandas, NumPy, scikit-learn
 
 ## 🎯 Focus
-I am building a portfolio around **leakage-safe CTR prediction**, **sequential recommendation**, and **serving-ready ML systems**.
+I am building trustworthy ML portfolio projects around:
+- CTR prediction
+- ranking evaluation
+- sequential recommendation
+- reproducible offline experimentation
+- simple model serving
 
-## 📌 Highlight
-My strongest proof project is **ctr-seqrec-avazu**: a leakage-safe Avazu benchmark showing reproducible offline evaluation and interview-ready evidence.
+## 📌 Current Goal
+Grow into an Ads/RecSys ML Engineer role by building practical, trustworthy, and reproducible ML projects.
