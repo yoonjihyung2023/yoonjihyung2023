@@ -1,4 +1,6 @@
-﻿# 👋 Jihyung Yoon (윤지형)
+﻿I built an Ads/RecSys ML portfolio that covers CTR modeling, ranking evaluation, and FastAPI model serving.
+
+# 👋 Jihyung Yoon (윤지형)
 
 Ads/RecSys ML Engineer focused on trustworthy CTR prediction and sequential recommendation  
 Proof: Avazu 2M (Kaggle, Tesla T4) — AUC 0.72659 / LogLoss 0.40009  
@@ -22,7 +24,7 @@ Python, PyTorch, FastAPI, Docker, GitHub Actions, CTR prediction, RecSys, rankin
 Live serving demo: https://ctr-api.onrender.com/docs
 
 ## Focus
-I am building practical ML portfolio projects around:
+I built practical ML portfolio projects around:
 - CTR prediction
 - sequential recommendation
 - leakage-safe offline evaluation
@@ -32,4 +34,10 @@ I am building practical ML portfolio projects around:
 - GitHub: [yoonjihyung2023](https://github.com/yoonjihyung2023)
 - Main proof repo: [ctr-seqrec-avazu](https://github.com/yoonjihyung2023/ctr-seqrec-avazu)
 - Serving demo: [ctr-api](https://github.com/yoonjihyung2023/ctr-api)
+
+## Links
+
+- GitHub: https://github.com/yoonjihyung2023
+- LinkedIn: https://www.linkedin.com/in/%EC%A7%80%ED%98%95-%EC%9C%A4-878902372/
+- Live Serving Demo: https://ctr-api.onrender.com/docs
 
