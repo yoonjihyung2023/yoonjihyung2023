@@ -1,6 +1,6 @@
 ﻿# Jihyung Yoon (윤지형)
 
-Ads/RecSys ML Engineer focused on trustworthy CTR prediction and sequential recommendation.
+Ads/RecSys ML Engineer | leakage-safe CTR | reproducible metrics.json | FastAPI demo | Open to ML/MLOps roles
 
 **Proof:** Avazu 2M — AUC 0.72659 / LogLoss 0.40009  
 **Leakage-safe + reproducible:** time-split + label-shuffle sanity + `reports/metrics.json`
