@@ -34,3 +34,4 @@ Python, PyTorch, FastAPI, Docker, GitHub Actions, CTR prediction, RecSys, rankin
 - GitHub: https://github.com/yoonjihyung2023
 - LinkedIn: https://www.linkedin.com/in/%EC%A7%80%ED%98%95-%EC%9C%A4-878902372/
 - Live Serving Demo: https://ctr-api.onrender.com/docs
+
