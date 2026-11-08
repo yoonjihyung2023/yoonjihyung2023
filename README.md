@@ -13,8 +13,8 @@ My work includes PyTorch experiments, ranking evaluation, and a FastAPI demo.
 - [ranking-eval-toolkit](https://github.com/yoonjihyung2023/ranking-eval-toolkit) — Evaluation utilities for AUC, LogLoss, Precision@K, Recall@K, and NDCG@K.
 
 ## Research
-
 - First author, [Evolution of Deep Learning-Based Sequential Recommender Systems](https://doi.org/10.1109/ACCESS.2023.3281981), IEEE Access, 2023.
+- First author, [A Comparison Study of RNN, CNN, and GAN Models in Sequential Recommendation](https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002872765), Journal of Internet Computing and Services (KCI-indexed), 2022.
 
 ## Core Stack
 
