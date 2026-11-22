@@ -1,7 +1,7 @@
 ﻿# Jihyung Yoon (윤지형)
 
 CTR Prediction & Sequential Recommendation  
-Open to ML, Applied ML, and MLOps roles
+Applied ML & Data Analysis | CTR Prediction and Experiment Evaluation
 
 I studied sequential recommendation and CTR prediction at Yonsei University.
 My work includes PyTorch experiments, ranking evaluation, and a FastAPI demo.
