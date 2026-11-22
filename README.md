@@ -8,7 +8,7 @@ My work includes PyTorch experiments, ranking evaluation, and a FastAPI demo.
 
 ## Featured Projects
 
-- [ctr-seqrec-avazu](https://github.com/yoonjihyung2023/ctr-seqrec-avazu) — Avazu CTR experiment notes with SASRec- and DIN-inspired modeling, time-based splits, and a training-label shuffle check.
+- [ctr-seqrec-avazu](https://github.com/yoonjihyung2023/ctr-seqrec-avazu) — SASRec- and DIN-inspired CTR modeling on a 2M-row Avazu sample. The main run achieved **ROC AUC 0.72656** and **LogLoss 0.40010** on a time-based internal test split of 125,584 events. Includes a training-label shuffle check.
 - [ctr-api](https://github.com/yoonjihyung2023/ctr-api) — FastAPI and Docker serving demo using a stub prediction model.
 - [ranking-eval-toolkit](https://github.com/yoonjihyung2023/ranking-eval-toolkit) — Evaluation utilities for AUC, LogLoss, Precision@K, Recall@K, and NDCG@K.
 
